@@ -54,6 +54,8 @@ dependencies {
 
 	// 该依赖用于测试阶段
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+
+	compile("org.springframework.boot:spring-boot-devtools")
 }
 
 dependencyManagement {
